@@ -109,7 +109,7 @@ export function PlatformReveal() {
             </div>
             <div className="p-5 md:p-8">
               <p className="label">EVENT CONTROL CENTER</p>
-              <p className="mt-1 text-2xl font-semibold tracking-tight md:text-3xl">Dogfood 2026</p>
+              <p className="mt-1 text-2xl font-semibold tracking-tight md:text-3xl">Hack Track 2026</p>
               {metrics.length > 0 && (
                 <dl className="mt-6 grid grid-cols-3 border-l border-t border-line">
                   {metrics.map((m) => (
@@ -155,7 +155,7 @@ export function Capabilities() {
         <div className="lg:sticky lg:top-24 lg:self-start">
           <p className="label">FIG. 03 — SPECIFICATION</p>
           <h2 className="mt-4 text-[clamp(2.2rem,4.5vw,3.75rem)] font-semibold leading-[0.9] tracking-[-0.045em]">Every tier.<br />Shipped.</h2>
-          <p className="mt-5 max-w-sm text-[15px] leading-relaxed text-fg-2">Built against the Dogfood specification — nothing invented, nothing missing.</p>
+          <p className="mt-5 max-w-sm text-[15px] leading-relaxed text-fg-2">Built against the Hack Track specification — nothing invented, nothing missing.</p>
         </div>
         <div className="grid border-l border-t border-line sm:grid-cols-2">
           {TIERS.map((tier, i) => (

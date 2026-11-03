@@ -2,7 +2,7 @@
 
 An open-source, self-hostable platform for running a hackathon end to end:
 registration, team formation, project submissions, and (soon) judging. Built
-for the [Dogfood 2026](https://dogfoodhack.com) hackathon, whose own
+for the [Hack Track 2026](https://dogfoodhack.com) hackathon, whose own
 challenge was "build the platform that will judge you."
 
 ## Quick start

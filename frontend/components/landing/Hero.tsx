@@ -11,7 +11,7 @@ import { EventGrid } from "@/components/ui/EventGrid";
 import { Magnetic, StatusDot, buttonClass } from "@/components/ui/primitives";
 
 const LINES = ["BUILD THE", "PLATFORM", "THAT WILL", "JUDGE YOU"];
-const TAGS = ["DOGFOOD 2026", "72 HOURS", "GLOBAL", "OPEN SOURCE", "SELF-HOSTED"];
+const TAGS = ["HACK TRACK 2026", "72 HOURS", "GLOBAL", "OPEN SOURCE", "SELF-HOSTED"];
 const ease = [0.16, 1, 0.3, 1] as const;
 
 export function Hero() {

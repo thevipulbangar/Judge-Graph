@@ -8,7 +8,7 @@ export type Role = "participant" | "judge" | "organizer" | "admin";
 
 export const EVENT = {
   id: "EVT-2026-DGF",
-  name: "Dogfood 2026",
+  name: "Hack Track 2026",
   tagline: "Build the platform that will judge you.",
   startsAt: "2026-09-25T18:00:00Z",
   deadline: "2026-09-28T18:00:00Z",
@@ -19,8 +19,8 @@ export const EVENT = {
 };
 
 export const EVENTS = [
-  { id: EVENT.id, name: "Dogfood 2026", status: "LIVE" as const },
-  { id: "EVT-2025-DGF", name: "Dogfood 2025", status: "ARCHIVE" as const },
+  { id: EVENT.id, name: "Hack Track 2026", status: "LIVE" as const },
+  { id: "EVT-2025-DGF", name: "Hack Track 2025", status: "ARCHIVE" as const },
 ];
 
 export type Track = { id: string; name: string; code: string; description: string };

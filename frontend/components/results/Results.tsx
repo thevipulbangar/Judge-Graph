@@ -90,7 +90,7 @@ export function Results({ user }: { user: User }) {
             className="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden rounded-md border border-line bg-[#060606]">
             <EventGrid cells={22} seed={run + 5} />
             <motion.p initial={{ opacity: 0, letterSpacing: "0.6em" }} animate={{ opacity: 1, letterSpacing: "0.3em" }} transition={{ duration: 1.2, ease }}
-              className="relative font-mono text-[13px] text-fg-2">DOGFOOD 2026</motion.p>
+              className="relative font-mono text-[13px] text-fg-2">HACK TRACK 2026</motion.p>
             <div className="relative overflow-hidden">
               <motion.h1 initial={{ y: "100%" }} animate={{ y: 0 }} transition={{ duration: 1, delay: 0.2, ease }}
                 className="mt-2 text-[clamp(4rem,14vw,13rem)] font-semibold leading-[0.9] tracking-[-0.06em]">RESULTS</motion.h1>
