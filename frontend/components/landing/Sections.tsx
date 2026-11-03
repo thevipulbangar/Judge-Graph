@@ -17,7 +17,7 @@ export function LandingNav() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-line/60 bg-bg/60 backdrop-blur-xl">
       <div className="mx-auto flex h-14 max-w-[1600px] items-center gap-6 px-5 md:px-10">
-        <Link href="/" aria-label="Judge Graph home"><Logo /></Link>
+        <Link href="/" aria-label="Hack Track home"><Logo /></Link>
         <nav aria-label="Primary" className="hidden items-center gap-6 font-mono text-[11px] uppercase tracking-[0.1em] text-muted md:flex">
           <Link href="/gallery" className="hover:text-fg">Projects</Link>
           <a href="#lifecycle" className="hover:text-fg">Lifecycle</a>
@@ -196,7 +196,7 @@ export function SelfHosted() {
           <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-ink/50">FIG. 04 — SELF-HOSTED</p>
           <h2 className="mt-4 text-[clamp(2.6rem,6vw,5.5rem)] font-semibold leading-[0.86] tracking-[-0.05em]">Your event.<br />Your hardware.<br />Your data.</h2>
           <p className="mt-6 max-w-md text-[16px] leading-relaxed text-ink/70">
-            Judge Graph runs entirely on your machine. No hosted databases, no external APIs, no cloud accounts, no network connection. Unplug the router — judging continues.
+            Hack Track runs entirely on your machine. No hosted databases, no external APIs, no cloud accounts, no network connection. Unplug the router — judging continues.
           </p>
           <dl className="mt-10 grid grid-cols-2 gap-px border border-ink/15 bg-ink/15 sm:grid-cols-4">
             {[["0", "Cloud deps"], ["1", "Data file"], ["4", "Roles"], ["MIT", "License"]].map(([v, k]) => (
@@ -233,7 +233,7 @@ export function FinalCTA() {
       <div className="relative mx-auto flex max-w-[1600px] flex-col items-start gap-10 md:flex-row md:items-end md:justify-between">
         <h2 className="text-[clamp(3rem,9vw,8.5rem)] font-semibold leading-[0.85] tracking-[-0.055em]">Build.<br />Submit.<br /><span className="text-accent">Judge.</span></h2>
         <Magnetic>
-          <Link href="/signin" className={buttonClass("primary", "lg", "h-14 px-8")}>Enter Judge Graph <ArrowRight className="size-4" /></Link>
+          <Link href="/signin" className={buttonClass("primary", "lg", "h-14 px-8")}>Enter Hack Track <ArrowRight className="size-4" /></Link>
         </Magnetic>
       </div>
     </section>
