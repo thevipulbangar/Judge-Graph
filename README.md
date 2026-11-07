@@ -5,6 +5,8 @@ registration, team formation, project submissions, and (soon) judging. Built
 for the [Hack Track 2026](https://dogfoodhack.com) hackathon, whose own
 challenge was "build the platform that will judge you."
 
+**Live demo:** https://judge-graph-frontend.onrender.com (free tier — the first load after idle can take about a minute)
+
 ## Quick start
 
 ```bash
