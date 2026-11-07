@@ -13,7 +13,7 @@ export function Greeting({ name, sub }: { name: string; sub: string }) {
   const part = h == null ? "Hello" : h < 12 ? "Good morning" : h < 18 ? "Good afternoon" : "Good evening";
   return (
     <header className="mb-8 md:mb-10">
-      <p className="label flex items-center gap-2"><StatusDot tone="ok" pulse />Hack Track 2026 · {sub}</p>
+      <p className="label flex items-center gap-2"><StatusDot tone="ok" pulse />Judge Graph 2026 · {sub}</p>
       <h1 className="mt-3 text-[clamp(2rem,4.8vw,3.75rem)] font-semibold uppercase leading-[0.92] tracking-[-0.04em]">
         {part},<br className="sm:hidden" /> <span className="text-fg-2">{name.split(" ")[0]}</span>
       </h1>

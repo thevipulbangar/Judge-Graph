@@ -104,7 +104,7 @@ export default function ProductFrame({ tour, shots }: { tour: MotionValue<number
   return (
     <div ref={frame} className="absolute inset-0 overflow-hidden bg-bg">
       <p className="sr-only">
-        Live rendering of the Hack Track organizer dashboard and analytics screens, using the event&apos;s seeded data.
+        Live rendering of the Judge Graph organizer dashboard and analytics screens, using the event&apos;s seeded data.
       </p>
       {[<Dashboard key="d" user={organizer} />, <Analytics key="a" />].map((screen, k) => (
         <div key={k} ref={screens[k]} inert aria-hidden

@@ -1,8 +1,8 @@
-# Hack Track — Hackathon Submission & Judging Platform
+# Judge Graph — Hackathon Submission & Judging Platform
 
 An open-source, self-hostable platform for running a hackathon end to end:
 registration, team formation, project submissions, and (soon) judging. Built
-for the [Hack Track 2026](https://dogfoodhack.com) hackathon, whose own
+for the [Dogfood 2026](https://dogfoodhack.com) hackathon, whose own
 challenge was "build the platform that will judge you."
 
 **Live demo:** https://judge-graph-frontend.onrender.com (free tier — the first load after idle can take about a minute)

@@ -48,7 +48,7 @@ export function Certificate({ c, className }: { c: CertData; className?: string 
       <div className="relative flex h-full flex-col justify-between p-[6cqw]">
         <div className="flex items-start justify-between">
           <div>
-            <p className="font-mono text-[1.5cqw] font-semibold tracking-[0.3em]">HACK TRACK 2026</p>
+            <p className="font-mono text-[1.5cqw] font-semibold tracking-[0.3em]">JUDGE GRAPH 2026</p>
             <p className="mt-[0.6cqw] font-mono text-[1.1cqw] tracking-[0.15em] text-ink/50">{EVENT.id} · {c.kind}</p>
           </div>
         </div>

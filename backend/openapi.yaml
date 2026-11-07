@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-  title: Hack Track 2026 API
+  title: Judge Graph 2026 API
   description: >
     Self-hostable hackathon submission and judging platform. Every UI action
     in the frontend goes through this API — there is no server-side-only

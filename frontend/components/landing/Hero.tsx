@@ -11,7 +11,7 @@ import { EventGrid } from "@/components/ui/EventGrid";
 import { Magnetic, StatusDot, buttonClass } from "@/components/ui/primitives";
 
 const LINES = ["BUILD THE", "PLATFORM", "THAT WILL", "JUDGE YOU"];
-const TAGS = ["HACK TRACK 2026", "72 HOURS", "GLOBAL", "OPEN SOURCE", "SELF-HOSTED"];
+const TAGS = ["JUDGE GRAPH 2026", "72 HOURS", "GLOBAL", "OPEN SOURCE", "SELF-HOSTED"];
 const ease = [0.16, 1, 0.3, 1] as const;
 
 export function Hero() {
@@ -83,7 +83,7 @@ export function Hero() {
 
           <div className="flex flex-wrap gap-3">
             <Magnetic>
-              <Link href="/signin" className={buttonClass("primary", "lg")}>Enter Hack Track <ArrowRight className="size-4" /></Link>
+              <Link href="/signin" className={buttonClass("primary", "lg")}>Enter Judge Graph <ArrowRight className="size-4" /></Link>
             </Magnetic>
             <Magnetic>
               <Link href="/gallery" className={buttonClass("outline", "lg")}>Explore projects</Link>

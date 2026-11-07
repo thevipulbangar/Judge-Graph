@@ -22,7 +22,7 @@ export default function Page({ searchParams }: { searchParams: Promise<{ track?:
     <main className="min-h-dvh bg-bg p-4">
       <header className="mb-4 flex items-center justify-between">
         <span className="flex items-center gap-2 font-mono text-[11px] tracking-[0.14em] text-fg-2">
-          <LogoMark size={14} />HACK TRACK · {list ? `${list.length} PROJECTS` : "LOADING…"}
+          <LogoMark size={14} />JUDGE GRAPH · {list ? `${list.length} PROJECTS` : "LOADING…"}
         </span>
         <Link href="/gallery" target="_top" className="font-mono text-[10.5px] tracking-[0.1em] text-muted hover:text-accent">OPEN GALLERY ↗</Link>
       </header>

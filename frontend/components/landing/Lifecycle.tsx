@@ -67,7 +67,7 @@ function Figure({ kind }: { kind: string }) {
     case "cert":
       return (
         <div className="bg-paper p-3 text-ink">
-          <p className="font-mono text-[7px] tracking-[0.2em]">HACK TRACK 2026</p>
+          <p className="font-mono text-[7px] tracking-[0.2em]">JUDGE GRAPH 2026</p>
           <p className="mt-2 text-[13px] font-semibold tracking-tight">Certificate of Achievement</p>
           <div className="mt-3 flex items-end justify-between">
             <p className="font-mono text-[7px]">VRF-7F3A-19C2</p>
